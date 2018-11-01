@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.admin.nguyenviethung1.MainActivity">
+
+    <EditText
+        android:id="@+id/edtTuacd1"
+        android:layout_width="148dp"
+        android:layout_height="45dp"
+        android:background="@color/colorPrimary"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Nhập tựa CD"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <EditText
+        android:id="@+id/edtDgia1"
+        android:layout_width="149dp"
+        android:layout_height="38dp"
+        android:background="@color/colorPrimary"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Đơn giá"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="109dp" />
+
+    <EditText
+        android:id="@+id/edtSluong1"
+        android:layout_width="149dp"
+        android:layout_height="36dp"
+        android:background="@color/colorPrimary"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Số lượng"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="157dp" />
+
+    <EditText
+        android:id="@+id/edtMacd1"
+        android:layout_width="149dp"
+        android:layout_height="44dp"
+        android:background="@color/colorPrimary"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Nhập mã CD"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="54dp" />
+
+    <EditText
+        android:id="@+id/editText5"
+        android:layout_width="167dp"
+        android:layout_height="40dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Nhập sl"
+        android:gravity="center"
+        tools:layout_editor_absoluteX="213dp"
+        tools:layout_editor_absoluteY="54dp" />
+
+    <EditText
+        android:id="@+id/editText8"
+        android:layout_width="167dp"
+        android:layout_height="40dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Nhập sl"
+        android:gravity="center"
+        tools:layout_editor_absoluteX="213dp"
+        tools:layout_editor_absoluteY="109dp" />
+
+    <EditText
+        android:id="@+id/editText7"
+        android:layout_width="167dp"
+        android:layout_height="40dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Nhập sl"
+        android:gravity="center"
+        tools:layout_editor_absoluteX="213dp"
+        tools:layout_editor_absoluteY="157dp" />
+
+    <EditText
+        android:id="@+id/editText6"
+        android:layout_width="167dp"
+        android:layout_height="40dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Nhập sl"
+        android:gravity="center"
+        tools:layout_editor_absoluteX="213dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <CheckBox
+        android:id="@+id/cbNhac1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CD Nhạc"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="209dp" />
+
+    <CheckBox
+        android:id="@+id/cbPhim1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CD Phim"
+        tools:layout_editor_absoluteX="150dp"
+        tools:layout_editor_absoluteY="209dp" />
+
+    <CheckBox
+        android:id="@+id/cbHai1"
+        android:layout_width="82dp"
+        android:layout_height="30dp"
+        android:text="CD Hài"
+        tools:layout_editor_absoluteX="273dp"
+        tools:layout_editor_absoluteY="211dp" />
+
+    <Button
+        android:id="@+id/btnXoa1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Xóa"
+        tools:layout_editor_absoluteX="59dp"
+        tools:layout_editor_absoluteY="462dp" />
+
+    <Button
+        android:id="@+id/btnThem1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Thêm"
+        tools:layout_editor_absoluteX="248dp"
+        tools:layout_editor_absoluteY="462dp" />
+
+    <ListView
+        android:id="@+id/lvDS1"
+        android:layout_width="363dp"
+        android:layout_height="196dp"
+        android:background="@color/colorAccent"
+        tools:layout_editor_absoluteX="11dp"
+        tools:layout_editor_absoluteY="258dp" />
+
+</android.support.constraint.ConstraintLayout>
